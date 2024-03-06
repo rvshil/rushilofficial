@@ -1091,7 +1091,6 @@ hr {
 @media (max-width:991.98px) {
   .info-section .info-img img {
     -o-object-fit: cover;
-    border-radius: 50%;
     display: block;
     height: 250px;
     margin: 0 auto 40px auto;
@@ -1897,3 +1896,9 @@ hr {
   }
 }
 
+/* Styles for screens that are 728px wide or more */
+@media (min-width: 728px) {
+  .content-block {
+    padding-top: 115px;
+  }
+}
