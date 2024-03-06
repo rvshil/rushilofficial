@@ -1866,3 +1866,18 @@ hr {
     font-size: 14px
   }
 }
+
+@media screen and (max-width: 600px) {
+  .responsive-div {
+    padding-left: 79px;
+    padding-top: 14px;
+  }
+}
+
+/* Styles for screens that are 728px wide or more */
+@media screen and (min-width: 728px) {
+  .responsive-div {
+    padding-left: 511px;
+    padding-top: 14px;
+  }
+}
