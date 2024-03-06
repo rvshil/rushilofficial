@@ -1881,3 +1881,18 @@ hr {
     padding-top: 14px;
   }
 }
+
+@media (max-width: 600px) {
+  .responsive-div-book {
+    padding-left: 101px;
+    padding-top: 14px;
+  }
+}
+
+/* Styles for screens that are 728px wide or more */
+@media (min-width: 728px) {
+  .responsive-div-book {
+    padding-left: 511px;
+    padding-top: 14px;
+  }
+}
