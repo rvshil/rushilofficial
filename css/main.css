@@ -1896,3 +1896,12 @@ hr {
     padding-top: 14px;
   }
 }
+
+@media (max-width: 600px) {
+  .mine {
+    position: absolute;
+    left: 241.5px;
+    top: 0px;
+  }
+}
+
