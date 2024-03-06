@@ -1867,7 +1867,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .responsive-div {
     padding-left: 79px;
     padding-top: 14px;
@@ -1875,7 +1875,7 @@ hr {
 }
 
 /* Styles for screens that are 728px wide or more */
-@media screen and (min-width: 728px) {
+@media (min-width: 728px) {
   .responsive-div {
     padding-left: 511px;
     padding-top: 14px;
